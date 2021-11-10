@@ -1,4 +1,4 @@
-let url = 'http://localhost:3000/courses';
+let url = 'http://localhost:3000/courses/';
 tableEl = document.getElementById('table');
 window.onload = getCourses();
 function getCourses(){
@@ -29,10 +29,6 @@ function getCourses(){
 
 
     }
-   function  deleteCourse(){
-
-
-   }
 
 
    function deleteCourse(id) {
